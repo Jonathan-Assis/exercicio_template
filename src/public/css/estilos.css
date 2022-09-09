@@ -6,6 +6,7 @@ Autor: Fabrício G. M. de Carvalho
     margin: 0;
     padding:0; 
 }
+
 a, p, span, li {
     font-family: sans-serif;
 }
@@ -17,24 +18,8 @@ body{
 ul{
     list-style: none;
 } 
-/* 
-li{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10pt;
-    width: 150pt;
-    height: 150pt;
-    background-color: yellow;
-    border-radius: 5%;
-    text-align: center;
-    padding-top: 70pt;
-    border-color: black;
-    border-style: solid;
-}
- */
 
-.card {
+.card{
     margin: 5rem;
     padding: 50px;
     background-color: white;
@@ -52,7 +37,7 @@ li{
 
 
 
-img {
+img{
     border-radius: 100%;
     width:180px;
     height:180px;
@@ -67,6 +52,7 @@ svg{
     width: 35px;
     height: 35px;
 }
+
 .toolbar{
     display: flex;
     flex-wrap: wrap;
@@ -97,6 +83,7 @@ svg{
     display: flex;
     gap: 25px;
 }
+
 #toggler, .toolbar label{
     display: none;
 }
@@ -121,66 +108,6 @@ svg{
     }
 }
 
-
 .descritor{
     font-weight: bold;
 }
-
-/* .sidebar {
-    padding:20px;
-    height: 100vh;
-    width: 60px;
-    background-color: white;
-    transition: width 0.3s;
-    overflow: hidden;
-    position:absolute;
-    top: 0;
-    left: 0;
-}
-
-.sidebar:hover {
-    width: 160px;
-    overflow:visible;
-}
-
-nav {
-    position: relative;
-    margin: 270px auto 0;
-    width: 590px;
-    height: 50px;
-    background: orange;
-    border-radius: 8px;
-    font-size: 0;
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
-}
-
-nav a {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
-    line-height: 50px;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    text-align: center;
-}
-
-nav .animation {
-    position: absolute;
-    height: 100%;
-    top:0;
-    z-index: 0;
-    background: blue;
-    border-radius: 8px;
-    transition: all .5 ease 0%;
-}
-
-
-ul {
-    list-style: none;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
