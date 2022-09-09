@@ -1,0 +1,22 @@
+<%# A linha abaixo carrega no template o conteúdo total do arquivo header.ejs%>
+<%-include('base_header') -%>
+<body>
+    <%- include('nav') -%>
+    <div class="card">
+        <ul>
+            <p>Sobre Mim</p>
+            <li class="infoList"> 
+                <img src="https://avatars.githubusercontent.com/u/70578728?v=4"><br/>
+                <%=info.nome %><br/>
+                <%=info.estudo %><br/>
+                <br/>
+                <span class="descritor">Trabalho:</span> <%=info.trabalho %> <br/>
+                <span class="descritor">Objetivos:</span> <%=info.objetivo %> </br>
+                </br>
+                <hr>
+            </li> 
+        </ul>
+    </div>
+</body>
+<%# A linha abaixo carrega no template o conteúdo total do arquivo footer.ejs %>
+<%- include('base_footer') -%>
